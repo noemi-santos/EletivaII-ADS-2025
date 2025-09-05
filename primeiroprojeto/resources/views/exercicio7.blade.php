@@ -8,17 +8,14 @@
 </head>
 <body> 
 <div class="container">
-<h1>Exercicio 2</h1>
-<form method="post" action="/resposta_exercicio2">
+<h1>Exercicio 7</h1>
+<form method="post" action="/resposta_exercicio7">
     @CSRF
 <div class="mb-3">
-              <label for="valor1" class="form-label">Informe o primeiro valor:</label>
+              <label for="valor1" class="form-label">Informe a temperatura em Fahrenheit:</label>
               <input type="number" id="valor1" name="valor1" class="form-control" required="">
-            </div><div class="mb-3">
-              <label for="valor2" class="form-label">Informe o segundo valor:</label>
-              <input type="number" id="valor2" name="valor2" class="form-control" required="">
             </div>
-<button type="submit" class="btn btn-primary">Enviar</button>
+    <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </div>

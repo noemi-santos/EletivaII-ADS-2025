@@ -8,15 +8,15 @@
 </head>
 <body> 
 <div class="container">
-<h1>Exercicio 2</h1>
-<form method="post" action="/resposta_exercicio2">
+<h1>Exercicio 15</h1>
+<form method="post" action="/resposta_exercicio15">
     @CSRF
 <div class="mb-3">
-              <label for="valor1" class="form-label">Informe o primeiro valor:</label>
+              <label for="valor1" class="form-label">Informe o peso:</label>
               <input type="number" id="valor1" name="valor1" class="form-control" required="">
             </div><div class="mb-3">
-              <label for="valor2" class="form-label">Informe o segundo valor:</label>
-              <input type="number" id="valor2" name="valor2" class="form-control" required="">
+              <label for="valor2" class="form-label">Informe a altura:</label>
+              <input type="number" id="valor2" name="valor2" class="form-control" step="0.01" required="">
             </div>
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>

@@ -8,8 +8,8 @@
 </head>
 <body> 
 <div class="container">
-<h1>Exercicio 2</h1>
-<form method="post" action="/resposta_exercicio2">
+<h1>Exercicio 1</h1>
+<form method="post" action="/exemplo_resposta">
     @CSRF
 <div class="mb-3">
               <label for="valor1" class="form-label">Informe o primeiro valor:</label>
